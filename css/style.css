@@ -30,6 +30,9 @@ img {
     align-self: center;
 }
 
+h3 {
+    font-weight: 1px;
+}
 #Intentos{
     color: red;
     font-weight: bold;
@@ -54,6 +57,7 @@ img {
 #ayuda{
     
     text-decoration: none !important;
+    font-size: 1rem !important;
     
 }
 #empresa{
@@ -66,23 +70,38 @@ img {
 }
 
 P {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #555;
 }
 a{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    
 }
 footer {
     align-content: center;
     display: inline-block;
 }
 
+label{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
 
-button {
+
+#cotinuar{
     padding: 0.5rem;
     background: #ffc400;
     color: black;
     border-radius: 36px;
     cursor: pointer;
     border: 2px solid transparent;   
+}
+#crear{
+    padding: 0.5rem;
+    background: #ffffff;
+    color: black;
+    border-radius: 36px;
+    cursor: pointer;
+    border: 1px solid;   
+    width: 370px;
 }
